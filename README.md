@@ -6,8 +6,8 @@
 
 tt \<Enter or Space\>  = 2022-09-20 21:43:34 ---------# Current timezone 24 hour
 
-ttt <Enter or Space> = 2022-09-20 09:44:14 PM ------# Current timezone 12 hour
+ttt \<Enter or Space\> = 2022-09-20 09:44:14 PM ------# Current timezone 12 hour
 
-zz <Enter or Space>  = 20220921T024504Z ------------# UTC String
+zz \<Enter or Space\>  = 20220921T024504Z ------------# UTC String
 
-zzz <Enter or Space> = 2022-09-21T02:45:33Z --------# UTC Formatted
+zzz \<Enter or Space\> = 2022-09-21T02:45:33Z --------# UTC Formatted
