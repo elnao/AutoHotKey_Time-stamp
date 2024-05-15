@@ -1,4 +1,3 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
@@ -23,12 +22,12 @@ SendInput, % vNowUTC
 Return
 
 ::cc::
-FormatTime, Time,, yyyyMMddTHHmmss, America/Chicago ;Central Time - 24-Hour String with T Separator
+FormatTime, Time, %CentralTime%, yyyyMMddTHHmmss ;Central Time - 24-Hour String with T Separator
 SendInput, %Time%
 Return
 
 ::ccc::
-FormatTime, Time,, yyyy-MM-dd hh:mm:ss tt, America/Chicago ;Central Time - 12-Hour
+FormatTime, Time, %CentralTime%, yyyy-MM-dd hh:mm:ss tt ;Central Time - 12-Hour
 SendInput, %Time%
 Return
 
